@@ -26,7 +26,21 @@ strong{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#FAE7C4 ;
+    background: radial-gradient(closest-side, #D7E3DF, #ebf8e1, #FAE7C4);
+    animation:Change-color 6s ease infinite;
+    background-size: 300% 300%;
+
+}
+@keyframes Change-color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 
 }
 .titulo_cat{
@@ -112,6 +126,9 @@ strong{
     border:none;
 
 
+}
+h6{
+    display: none;
 }
 
 .container_foto{
@@ -233,6 +250,12 @@ strong{
     .text_cat{
         display: none;
     }
+
+
+
+
+
+
 }
 
 .catalogo1{
@@ -332,5 +355,22 @@ strong{
 }
 .catalogo1{
     grid-area: catalogo1;
+}
+
+@media(max-width:289px){
+    body{ 
+        display: none;
+        background-image: url(https://media.ambito.com/p/40f5009b0e4123b27520b7bc88a3e2b8/adjuntos/239/imagenes/037/945/0037945030/1200x675/smart/dinosaurio-google.jpg);
+        background-size: contain;
+    }
+    h6{
+        display: inline-flexbox;
+        display: inline-block;
+        font-size: 60px;
+        text-align: center;
+    }
+
+
+
 }
 

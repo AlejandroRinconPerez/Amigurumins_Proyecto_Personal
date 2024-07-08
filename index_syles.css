@@ -127,10 +127,6 @@ strong{
     text-decoration: none;color: var(--Letra_cafe_color);
     
 }
-
-.nav_list{
-    
-}
 .land_lista_element:hover{
     background-color: #f8c566;
     width: 20vw;
@@ -552,12 +548,7 @@ strong{
     justify-content:center;
     align-items: center;
     align-content: center;
-    background: linear-gradient(45deg,
-    #f7d596 , 
-    #f3d8a6 , 
-    #FAE7C4, 
-    #F7F2EC, 
-    #FFFFFF );
+    background: radial-gradient(closest-side, #D7E3DF, #ebf8e1, #FAE7C4);
     border-top: #523120;
     border-style: dashed;
     margin: 0;
@@ -1346,3 +1337,4 @@ strong{
 
 }
 
+    
