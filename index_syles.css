@@ -892,6 +892,7 @@ strong{
     background-size:contain;
     transition-property:background-image;
     transition-duration:1s;
+    color: #ffffff;
 
 }
 
@@ -1337,4 +1338,58 @@ strong{
 
 }
 
+.celular{ display:none;}
+@media(max-width:350px){
+
+    body *:not(#celular){
+        display: none;
+    }
+
+    #celular{
+        display: block;
+        height: 100vh;
+        color: #000000;
+        font-size: 50px;
+        font-style: italic;
+        font-weight: bolder;
+        background: radial-gradient(closest-side, #D7E3DF, #ebf8e1, #FAE7C4);
+        animation:Change-color 6s ease infinite;
+        background-size: 300% 300%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        align-items:center ;
+    }
     
+    @keyframes Change-color{
+        0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+    
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

@@ -47,7 +47,7 @@ strong{
     
     width: 100%;
     font-size: 5vw;
-    padding: 1vw;;
+    padding: 0.5vw;;
     background: linear-gradient(45deg,
     #89D3D2 , 
     #aedbdb , 
@@ -75,7 +75,7 @@ strong{
     #FFFFFF );
     animation:Change-color 8s ease infinite;
     background-size: 300% 300%;
-    padding: 2vw;
+    padding: 1vw;
     position: sticky;
     bottom: 0;
     border-top:0.2vw  solid black;
@@ -86,7 +86,7 @@ strong{
     font-size: 2.5vw;
     border:0.5vw solid #FAE7C4;
     border-radius: 5vw;
-    padding: 1vw;;
+    padding: 0.5vw;;
     background-color:#c4dbdb ;
     text-decoration: none;
     color: #523120;
@@ -154,7 +154,7 @@ h6{
     margin: 0;
     width: 18vw;
     text-align: center;
-    margin: 0.2vw;
+    margin: 0.1vw;
 
 }
 .fotos_cat{
@@ -224,7 +224,7 @@ h6{
         margin: 0;
         width: 70vw;
         text-align: center;
-        margin: 0.2vw;
+        margin: 0.1vw;
     }    
 
     .nombre_amigui{
@@ -237,7 +237,7 @@ h6{
         font-size: 6vw;
         border:0.5vw solid #F0DACD;
         border-radius: 5vw;
-        padding: 1vw;;
+        padding: 0.5vw;;
         background-color:#c4dbdb ;
         text-align: center;
         width: 60vw;
@@ -356,21 +356,41 @@ h6{
 .catalogo1{
     grid-area: catalogo1;
 }
-
+#celular{ display: none;}
 @media(max-width:289px){
-    body{ 
+
+    body *:not(#celular){
         display: none;
-        background-image: url(https://media.ambito.com/p/40f5009b0e4123b27520b7bc88a3e2b8/adjuntos/239/imagenes/037/945/0037945030/1200x675/smart/dinosaurio-google.jpg);
-        background-size: contain;
     }
-    h6{
-        display: inline-flexbox;
-        display: inline-block;
-        font-size: 60px;
+
+    #celular{
+        display: block;
+        height: 100vh;  
+        color: #000000;
+        font-size: 50px;
+        font-style: italic;
+        font-weight: bolder;
+        background: radial-gradient(closest-side, #D7E3DF, #ebf8e1, #FAE7C4);
+        animation:Change-color 6s ease infinite;
+        background-size: 300% 300%;
+        margin: auto;
         text-align: center;
+        display: flex;
+        align-items:center ;
+    }
+    
+    @keyframes Change-color{
+        0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+    
     }
 
-
-
-}
+    }
 
