@@ -26,6 +26,7 @@ strong{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color:#FAE7C4 ;
 
 }
 .titulo_cat{
@@ -69,7 +70,7 @@ strong{
 }
 .boton{
     font-size: 2.5vw;
-    border:0.5vw solid #F0DACD;
+    border:0.5vw solid #FAE7C4;
     border-radius: 5vw;
     padding: 1vw;;
     background-color:#c4dbdb ;
@@ -121,6 +122,7 @@ strong{
     border: 0.2vw solid black;
     border-radius: 2vw;
     margin: 2vw;
+    background-color:#FFFFFF ;
     
 }
 .nombre_amigui{

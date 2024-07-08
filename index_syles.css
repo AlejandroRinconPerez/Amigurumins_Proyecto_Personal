@@ -110,7 +110,7 @@ strong{
     width: 15vw;
     height: 9vh;
     font-family: "Pangolin", cursive;
-    font-size: 4rem;
+    font-size: 3vw;
     background-color: var(--Borde_amarillo_color);
     padding: 1vw;
     margin-top: 2vw;
@@ -1050,13 +1050,14 @@ strong{
         "img_pro_3"
         "text_img3"
         "cat";
+        margin: auto;
     }
     .text_titulo_productos{
         font-size: 13vw;
 
     }
     .img_producto{
-        width: 50vw;
+        width: 45vw;
     }
 
     .text-productos{
@@ -1068,7 +1069,14 @@ strong{
         font-size: 5vw;
         width: 25vw;
     }
-
+.catalogo_muestra{
+    display: none;
+}
+.imc1{
+    width: 60vw;
+    margin: auto;
+    
+}
 
 
 }
@@ -1076,7 +1084,7 @@ strong{
 
 
 
-@media(max-width:780px){
+@media(max-width:720px){
     .land{
        display: flex;
        justify-content: space-around;
@@ -1101,6 +1109,7 @@ strong{
 
     .land_lista_element{
         width: 80vw;
+        font-size: 8vw;
     }
     .nav_link1{
         font-size: 4.5vw;
@@ -1300,11 +1309,40 @@ strong{
 .img_footer{
     width: 25vw;
 }
-
-
-
-
-
-
+.catalogo_muestra{
+    font-size: 10vw;
+}
+.imc2{
+    display: none;
+}
+.imc3{
+    display: none;
+}
+.imc4{
+    display: none;
+}
+.imc5{
+    display: none;
+}
+.imc6{
+    display: none;
+}
+#catalogo_producto{
+    width: 80vw;
+    font-size: 7vw;
+}
+.muestra{
+    width: 80vw;
+    
 
 }
+.mini_cat{
+    grid-template-areas: 
+    "head2"
+    "imc1 "
+    "cat";
+
+}
+
+}
+
