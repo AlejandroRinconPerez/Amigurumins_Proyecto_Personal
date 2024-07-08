@@ -1,0 +1,334 @@
+*{
+    /* font-family: "Roboto Serif", serif; */
+    font-family: "Pangolin", cursive;
+    font-size:10px;
+    color:#523120;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0px;
+    color: #523120;
+}
+
+strong{
+    font-weight: 300;
+}
+
+
+
+.land_cat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.titulo_cat{
+    
+    width: 100%;
+    font-size: 5vw;
+    padding: 1vw;;
+    background: linear-gradient(45deg,
+    #89D3D2 , 
+    #aedbdb , 
+    #89D3D2, 
+    #aedbdb, 
+    #FFFFFF  );
+    animation:Change-color 8s ease infinite;
+    background-size: 300% 300%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    border-bottom:0.2vw  solid black;
+   
+
+}
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(45deg,
+    #89D3D2 , 
+    #aedbdb , 
+    #89D3D2, 
+    #aedbdb, 
+    #FFFFFF );
+    animation:Change-color 8s ease infinite;
+    background-size: 300% 300%;
+    padding: 2vw;
+    position: sticky;
+    bottom: 0;
+    border-top:0.2vw  solid black;
+    text-decoration: none;
+    
+}
+.boton{
+    font-size: 2.5vw;
+    border:0.5vw solid #F0DACD;
+    border-radius: 5vw;
+    padding: 1vw;;
+    background-color:#c4dbdb ;
+    text-decoration: none;
+    color: #523120;
+}
+.boton:hover{
+    background-image: url(./Archivos/todostods.jpg);
+    background-size: contain;
+    border:none;
+    border:0.5vw solid #ffffff;
+    color: #FFFFFF;
+
+
+
+
+}
+@keyframes Change-color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+
+}
+
+.text_cat{
+    border: none;
+    background-color: transparent;
+
+}
+.text_cat:hover{
+    background-image: none;
+    color:#523120;
+    border:none;
+
+
+}
+
+.container_foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.2vw solid black;
+    border-radius: 2vw;
+    margin: 2vw;
+    
+}
+.nombre_amigui{
+    font-size: 2vw;
+    padding: 0;
+    margin: 0;
+
+}
+.descrip{
+    font-size: 1vw;
+    padding: 0;
+    margin: 0;
+    width: 18vw;
+    text-align: center;
+    margin: 0.2vw;
+
+}
+.fotos_cat{
+    display: grid;
+    grid-template-areas: 
+    "catalogo1 catalogo2 catalogo3"
+    "catalogo4 catalogo4 catalogo6"
+    "catalogo7 catalogo8 catalogo9"
+    "catalogo10 catalogo11 catalogo12"
+    "catalogo13 catalogo14 catalogo15"
+    "catalogo16 catalogo17 catalogo18"
+    "catalogo19 catalogo20 catalogo21"
+    "catalogo22 catalogo23 catalogo24"
+    "catalogo25 catalogo26 catalogo27"
+    "catalogo28 catalogo29 catalogo30";
+    place-items: center;
+   
+}
+
+@media(max-width:1000px){
+
+    .fotos_cat{
+        display: grid;
+        grid-template-areas: 
+        "catalogo1"
+        "catalogo2"
+        "catalogo3"
+        "catalogo4"
+        "catalogo5"
+        "catalogo6"
+        "catalogo7"
+        "catalogo8"
+        "catalogo9"
+        "catalogo10"
+        "catalogo11"
+        "catalogo12"
+        "catalogo13"
+        "catalogo14"
+        "catalogo15"
+        "catalogo16"
+        "catalogo17"
+        "catalogo18"
+        "catalogo19"
+        "catalogo20"
+        "catalogo21"
+        "catalogo22"
+        "catalogo23"
+        "catalogo24"
+        "catalogo25"
+        "catalogo26"
+        "catalogo27"
+        "catalogo28"
+        "catalogo29"
+        "catalogo30";
+        
+
+
+    }
+    .titulo_cat{
+    
+        font-size: 10vw;
+        
+    }
+    .descrip{
+        font-size: 5vw;
+        padding: 0;
+        margin: 0;
+        width: 70vw;
+        text-align: center;
+        margin: 0.2vw;
+    }    
+
+    .nombre_amigui{
+        font-size: 8vw;
+        padding: 0;
+        margin: 0;
+    
+    }
+    .boton{
+        font-size: 6vw;
+        border:0.5vw solid #F0DACD;
+        border-radius: 5vw;
+        padding: 1vw;;
+        background-color:#c4dbdb ;
+        text-align: center;
+        width: 60vw;
+    }
+    .botones{
+
+        flex-direction: column;
+        align-items: center;
+    }
+    .text_cat{
+        display: none;
+    }
+}
+
+.catalogo1{
+    grid-area: catalogo1;
+}
+.catalogo2{
+    grid-area: catalogo2;
+}
+.catalogo3{
+    grid-area: catalogo3;
+}
+
+.catalogo4{
+    grid-area: catalogo4;
+}
+
+.catalogo5{
+    grid-area: catalogo5;
+}
+
+.catalogo6{
+    grid-area: catalogo6;
+}
+
+.catalogo7{
+    grid-area: catalogo7;
+}
+
+.catalogo8{
+    grid-area: catalogo8;
+}
+.catalogo9{
+    grid-area: catalogo9;
+}
+.catalogo10{
+    grid-area: catalogo10;
+}
+.catalogo11{
+    grid-area: catalogo11;
+}
+.catalogo12{
+    grid-area: catalogo12;
+}
+.catalogo13{
+    grid-area: catalogo13;
+}
+.catalogo14{
+    grid-area: catalogo14;
+}
+.catalogo15{
+    grid-area: catalogo15;
+}
+.catalogo16{
+    grid-area: catalogo16;
+}
+.catalogo17{
+    grid-area: catalogo17;
+}
+.catalogo18{
+    grid-area: catalogo18;
+}
+.catalogo19{
+    grid-area: catalogo19;
+}
+.catalogo20{
+    grid-area: catalogo20;
+}
+.catalogo21{
+    grid-area: catalogo21;
+}
+.catalogo22{
+    grid-area: catalogo22;
+}
+.catalogo23{
+    grid-area: catalogo23;
+}
+.catalogo24{
+    grid-area: catalogo24;
+}
+.catalogo25{
+    grid-area: catalogo25;
+}
+.catalogo26{
+    grid-area: catalogo26;
+}
+.catalogo27{
+    grid-area: catalogo27;
+}
+.catalogo28{
+    grid-area: catalogo28;
+}
+.catalogo29{
+    grid-area: catalogo29;
+}
+.catalogo30{
+    grid-area: catalogo30;
+}
+.catalogo1{
+    grid-area: catalogo1;
+}
+
