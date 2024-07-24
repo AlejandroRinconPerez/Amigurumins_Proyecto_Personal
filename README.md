@@ -16,7 +16,9 @@
 	<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">
 </p>
 <hr>
-##  🔗indice
+
+
+## 🔗 indice
 
 | Indice | Titulo  |
 |--|--|
@@ -33,18 +35,6 @@ Bienvenido a Amigurumis by Elena Rincón, un negocio familiar especializado en l
 ## Características Principales
 - **Tipo de Proyecto:** Página web de visualización
 - **Licencia:** Ninguna
-
-## Índice
-
-1. [Descripción del Proyecto](#descripción-del-proyecto)
-2. [Características Principales](#características-principales)
-3. [Contenido del README](#contenido-del-readme)
-   - [Secciones Disponibles](#secciones-disponibles)
-   - [Tecnologías Utilizadas](#tecnologías-utilizadas)
-   - [Contribuciones y Licencia](#contribuciones-y-licencia)
-   - [Contacto](#contacto)
-
-## Contenido del README
 
 
 ### Secciones Disponibles
