@@ -19,6 +19,12 @@ Bienvenido a Amigurumis by Elena Rincón, un negocio familiar especializado en l
 
 ## Contenido del README
 
+
+<p  align="left">  <img  src="./Archivos/Catalogo 5.png"  width="100"  />  </p>  
+
+
+<p  align="left">  <h1  align="left">AMIGURUMINS_PROYECTO_PERSONAL</h1>  </p>
+
 ### Secciones Disponibles
 
 1. **Inicio**
