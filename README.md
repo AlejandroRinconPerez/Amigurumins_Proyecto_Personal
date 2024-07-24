@@ -64,80 +64,9 @@ Bienvenido a Amigurumis by Elena Rincón, un negocio familiar especializado en l
 ## Estructura 
 ```sh
 └── Amigurumins_Proyecto_Personal/
-    ├── Archivos
+    ├── Archivos Multimedia
     │   ├── Animacion 1.png
-    │   ├── Animacion 10.png
-    │   ├── Animacion 11.png
-    │   ├── Animacion 12.png
-    │   ├── Animacion 13.png
-    │   ├── Animacion 14.png
-    │   ├── Animacion 15.png
-    │   ├── Animacion 16.png
-    │   ├── Animacion 2.png
-    │   ├── Animacion 3.png
-    │   ├── Animacion 4.png
-    │   ├── Animacion 5.png
-    │   ├── Animacion 6.png
-    │   ├── Animacion 7.png
-    │   ├── Animacion 8.png
-    │   ├── Animacion 9.png
-    │   ├── Añadir un título (1).png
-    │   ├── Añadir un título (10).png
-    │   ├── Añadir un título (11).png
-    │   ├── Añadir un título (12).png
-    │   ├── Añadir un título (13).png
-    │   ├── Añadir un título (2).png
-    │   ├── Añadir un título (3).png
-    │   ├── Añadir un título (4).png
-    │   ├── Añadir un título (5).png
-    │   ├── Añadir un título (6).png
-    │   ├── Añadir un título (7).png
-    │   ├── Añadir un título (8).png
-    │   ├── Añadir un título (9).png
-    │   ├── Añadir un título.svg
-    │   ├── Catalogo 1.png
-    │   ├── Catalogo 10.png
-    │   ├── Catalogo 11.png
-    │   ├── Catalogo 12.png
-    │   ├── Catalogo 13.png
-    │   ├── Catalogo 14.png
-    │   ├── Catalogo 15.png
-    │   ├── Catalogo 16.png
-    │   ├── Catalogo 17.png
-    │   ├── Catalogo 18.png
-    │   ├── Catalogo 19.png
-    │   ├── Catalogo 2.png
-    │   ├── Catalogo 20.png
-    │   ├── Catalogo 21.png
-    │   ├── Catalogo 22.png
-    │   ├── Catalogo 23.png
-    │   ├── Catalogo 24.png
-    │   ├── Catalogo 25.png
-    │   ├── Catalogo 26.png
-    │   ├── Catalogo 27.png
-    │   ├── Catalogo 28.png
-    │   ├── Catalogo 29.png
-    │   ├── Catalogo 3.png
-    │   ├── Catalogo 30.png
-    │   ├── Catalogo 4.png
-    │   ├── Catalogo 5.png
-    │   ├── Catalogo 6.png
-    │   ├── Catalogo 7.png
-    │   ├── Catalogo 8.png
-    │   ├── Catalogo 9.png
-    │   ├── Diseño sin título.png
-    │   ├── Logo_footer.png
-    │   ├── Loguito_nav2.png
-    │   ├── Perrysuperbien.png
-    │   ├── Quienes somos.png
-    │   ├── Tanjitosuperbien.png
-    │   ├── Todos Izquierda_edit.jpg
-    │   ├── base.png
-    │   ├── logo4.png
-    │   ├── loguito3.png
-    │   ├── loguito4.png
-    │   ├── todos derecha_edit.jpg
-    │   └── todostods.jpg
+    │   ├── ................
     ├── Catalogo.css
     ├── Catalogo.html
     ├── README.md
