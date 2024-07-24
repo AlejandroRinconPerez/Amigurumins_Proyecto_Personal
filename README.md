@@ -1,4 +1,4 @@
-<p  align="center">  <img  src="./Archivos/Añadir un título (11).png"  width="100"  />    <img  src="./Archivos/Añadir un título (1).png"  width="100"  />   <img  src="./Archivos/Añadir un título (12).png"  width="100"  /></p>  
+<p  align="center">  <img  src="./Archivos/Añadir un título (11).png"  width="100"  /><img  src="./Archivos/Añadir un título (2).png"  width="100"  />   <img  src="./Archivos/Añadir un título (3).png"  width="100"  /> <img  src="./Archivos/Añadir un título (4).png"  width="100"  /><img  src="./Archivos/Añadir un título (1).png"  width="100"  />   <img  src="./Archivos/Añadir un título (12).png"  width="100"  /></p>  
 
 
 <p  align="left">  <h1  align="left">AMIGURUMINS_PROYECTO_PERSONAL</h1>  </p
