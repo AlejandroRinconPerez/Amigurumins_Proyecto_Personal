@@ -1,8 +1,22 @@
 
 
-<p  align="center">  <img  src="./Archivos/Añadir un título (11).png"  width="100"  /><img  src="./Archivos/Añadir un título (2).png"  width="100"  />   <img  src="./Archivos/Añadir un título (3).png"  width="100"  /> <img  src="./Archivos/Añadir un título (4).png"  width="100"  /><img  src="./Archivos/Añadir un título (1).png"  width="100"  />   <img  src="./Archivos/Añadir un título (12).png"  width="100"  /></p>  
-<p  align="center">  <h1  align="left">AMIGURUMINS_PROYECTO_PERSONAL</h1>  </p
----
+<p  align="center">  <img  src="./Archivos/Añadir un título (2).png"  width="200"  />   <img  src="./Archivos/Añadir un título (3).png"  width="200"  /> <img  src="./Archivos/Añadir un título (4).png"  width="200"  /> <img  src="./Archivos/Añadir un título (12).png"  width="200"  /></p>  
+<p  align="center">  <h1  align="center">AMIGURUMINS_PROYECTO_PERSONAL</h1>  </p>
+
+   <p align="center">
+	<img src="https://img.shields.io/github/license/AlejandroRinconPerez/CV-Practica?style=flat&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/AlejandroRinconPerez/CV-Practica?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/AlejandroRinconPerez/CV-Practica?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/AlejandroRinconPerez/CV-Practica?style=flat&color=0080ff" alt="repo-language-count">
+<p>
+<p align="center">
+		<em>Developed with the software and tools below.</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">
+</p>
+<hr>
+
 
 
 ## Descripción del Proyecto
