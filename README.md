@@ -1,3 +1,8 @@
+<p  align="center">  <img  src="./Archivos/Añadir un título (11).png"  width="100"  />  </p>  
+
+
+<p  align="left">  <h1  align="left">AMIGURUMINS_PROYECTO_PERSONAL</h1>  </p
+
 # Amigurumis by Elena Rincón
 
 ## Descripción del Proyecto
