@@ -205,9 +205,9 @@ strong{
     align-items: center;
     border-top: #523120;
     border-style: dashed;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #FFB89D;
-    height: 100vh;
+    
 }
 .ayuda_quienes{
     background-color: #FFB89D;
@@ -233,7 +233,6 @@ strong{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50vh;
     background-color:#D7E3DF;
     position:relative;
     bottom: 0;
@@ -793,8 +792,6 @@ strong{
     width: 10vw;
 }
 
-
-
 .footer{
     width: 100%;;
     background: linear-gradient(45deg,
@@ -913,11 +910,10 @@ strong{
     margin: 0px;
     }
     
-    .text_container_quienes{
-    height: 70vh;
-    }
+   
     .text_quienes{
-    font-size:4vw ;
+    font-size:3.5vw ;
+    width: 95vw;
     }
     .text_container_Productos{
     grid-template-areas: 
@@ -1181,11 +1177,10 @@ padding: 0px;
 margin: 0px;
 }
 
-.text_container_quienes{
-height: 70vh;
-}
+
 .text_quienes{
 font-size:4vw ;
+width: 95vw;
 }
 .text_container_Productos{
 grid-template-areas: 
@@ -1450,11 +1445,10 @@ padding: 0px;
 margin: 0px;
 }
 
-.text_container_quienes{
-height: 70vh;
-}
+
 .text_quienes{
 font-size:4vw ;
+width: 95vw;
 }
 .text_container_Productos{
 grid-template-areas: 
@@ -1719,11 +1713,10 @@ padding: 0px;
 margin: 0px;
 }
 
-.text_container_quienes{
-height: 70vh;
-}
+
 .text_quienes{
     font-size:5vw ;
+    width: 95vw;
 }
 .text_container_Productos{
     grid-template-areas: 
@@ -1989,11 +1982,9 @@ height: 70vh;
     margin: 0px;
     }
     
-    .text_container_quienes{
-    height: 70vh;
-    }
     .text_quienes{
         font-size:5vw ;
+        width: 95vw;
     }
     .text_container_Productos{
         grid-template-areas: 
