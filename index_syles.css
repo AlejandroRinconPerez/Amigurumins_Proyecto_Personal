@@ -852,7 +852,7 @@ strong{
 
 
 
-@media(max-width:1025px){
+@media(max-width:1024px){
 
     .container_titulo_land{
     width: 50%;
@@ -1922,7 +1922,7 @@ margin: 0px;
             }
 
 }
-
+/* 
 @media(max-width:415px){
     
     
@@ -2189,4 +2189,4 @@ margin: 0px;
                 width: 25vw;
                 }
     
-    }
+    } */
