@@ -230,6 +230,9 @@ h6{
     .text_cat{
         display: none;
     }
+    .button {
+        margin-bottom: 2vw;
+    }
 }
 
 
