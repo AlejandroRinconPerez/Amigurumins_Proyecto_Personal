@@ -161,8 +161,9 @@ h6{
     align-items: center;
     border: 0.2vw solid black;
     border-radius: 2vw;
-    margin: 1vw;
+    margin: 5vw;
     background-color:#FFFFFF ;
+    width: 22vw;
     
 }
 .nombre_amigui{

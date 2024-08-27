@@ -85,7 +85,12 @@ strong{
 }
 .land_titulo:hover{
     color: var(--Letra_cafe_color);
+    
 
+}
+
+.land_lista{
+    list-style: none;
 }
 .land_titulo_sub{
     font-size: 10vw;
@@ -93,6 +98,7 @@ strong{
 }
 .land_titulo_sub:hover{
     color: var(--Naranja_titulo);
+    list-style: none;
 }
 
 .ayuda_titulo{
