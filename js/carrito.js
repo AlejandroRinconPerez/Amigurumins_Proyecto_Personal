@@ -56,14 +56,21 @@ function crearTarjetascarro() {
       .getElementsByTagName("button")[0]
       .addEventListener("click" , ()=> {
         agregarAlCarrito(element)
+        crearTarjetascarro()
+        
+        
         
       })
       div
       .getElementsByTagName("button")[1]
       .addEventListener("click" , ()=> {
         restarAlCarrito(element)
-        crearTarjetascarro()})
+        crearTarjetascarro()
+        })
+
     });
+    cantidadTotal ()
+    PrecioTotal ()
   }
 }
 
@@ -79,13 +86,80 @@ function restarAlCarrito(producto) {
       memoria.splice(indiceProducto, 1); 
     }
     localStorage.setItem("Amigurumi", JSON.stringify(memoria));
-    crearTarjetascarro(); 
+    crearTarjetascarro()
+    ; 
   }else{
     crearTarjetascarro();
   }
 }
 
 crearTarjetascarro();
+
+
+
+function PrecioTotal(){
+  const memoria = JSON.parse(localStorage.getItem("Amigurumi")) || [];
+  var precio = document.querySelector("#precio")
+  var contador = 0
+  memoria.forEach((element) =>{
+    contador = (element.cantidad *element.Precio) + contador
+  })
+  contador = contador.toLocaleString()
+  precio.textContent = contador
+}
+
+function cantidadTotal (){
+  const memoria = JSON.parse(localStorage.getItem("Amigurumi")) || [];
+  var cantidad = document.querySelector("#cantidad")
+  var contador = 0
+  memoria.forEach((element) =>{
+    contador = (element.cantidad ) + contador
+  })
+  cantidad.textContent = contador
+}
+
+
+
+// function reset (){
+//   const memoria = JSON.parse(localStorage.getItem("Amigurumi")) || [];
+//   console.log(memoria)
+//   memoria.length = 0
+//   localStorage.setItem("Amigurumi", JSON.stringify(memoria));
+//   // for(let i = 0; i <memoria.length; i++){
+//   //   memoria.pop()
+//   // }
+//   cantidadTotal ()
+//   PrecioTotal()
+//   crearTarjetascarro();
+// }
+
+// var Borrador = document.querySelector("#reiniciar")
+// Borrador.addEventListener("click", reset)
+
+function reset() {
+  const memoria = JSON.parse(localStorage.getItem("Amigurumi")) || [];
+  memoria.length = 0;
+  cantidadTotal();
+  PrecioTotal();
+  crearTarjetascarro();
+ 
+  localStorage.setItem("Amigurumi", JSON.stringify(memoria));
+  location.reload
+}
+
+var Borrador = document.querySelector("#reiniciar");
+Borrador
+.addEventListener("click" , ()=> {
+  reset();
+  cantidadTotal();
+  PrecioTotal();
+  crearTarjetascarro();
+  location.reload(true)
+  })
+
+
+
+
 
 
 /* <img src="${element.img}" class="img_cat" alt="...">
