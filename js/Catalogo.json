@@ -4,209 +4,239 @@
         "Nombre": "Nina y Conejo",
         "img": "./Archivos/Catalogo 1.png",
         "Precio": 150000,
-        "Descripcion": "Niña y conejito, pura ternura tejida en lana y amor."
+        "Descripcion": "Niña y conejito, pura ternura tejida en lana y amor.",
+        "Descuento": true
     },
     {
         "id": "2",
         "Nombre": "Tristeza",
         "img": "./Archivos/Catalogo 2.png",
         "Precio": 80000,
-        "Descripcion": "Delicada muñeca triste, melancolía tejida con amor y detalle."
+        "Descripcion": "Delicada muñeca triste, melancolía tejida con amor y detalle.",
+        "Descuento": false
     },
     {
         "id": "3",
         "Nombre": "Envidia",
         "img": "./Archivos/Catalogo 3.png",
         "Precio": 80000,
-        "Descripcion": "Envidia tejida, muñeca verde inspirada en 'Inside Out'."
+        "Descripcion": "Envidia tejida, muñeca verde inspirada en 'Inside Out'.",
+        "Descuento": true
     },
     {
         "id": "4",
         "Nombre": "Tanjiro",
         "img": "./Archivos/Catalogo 4.png",
         "Precio": 70000,
-        "Descripcion": "Pequeño Tanjiro tejido, héroe adorable de 'Demon Slayer'."
+        "Descripcion": "Pequeño Tanjiro tejido, héroe adorable de 'Demon Slayer'.",
+        "Descuento": false
     },
     {
         "id": "5",
         "Nombre": "Hello Kitty",
         "img": "./Archivos/Catalogo 5.png",
         "Precio": 50000,
-        "Descripcion": "Hello Kitty morada, dulzura y encanto en cada detalle tejido."
+        "Descripcion": "Hello Kitty morada, dulzura y encanto en cada detalle tejido.",
+        "Descuento": true
     },
     {
         "id": "6",
         "Nombre": "Hantaro",
         "img": "./Archivos/Catalogo 6.png",
         "Precio": 40000,
-        "Descripcion": "Hámster adorable, comiendo y tejido a mano con amor."
+        "Descripcion": "Hámster adorable, comiendo y tejido a mano con amor.",
+        "Descuento": false
     },
     {
         "id": "7",
         "Nombre": "Osa",
         "img": "./Archivos/Catalogo 7.png",
         "Precio": 100000,
-        "Descripcion": "Adorable osa rosada, ternura infinita en cada punto tejido."
+        "Descripcion": "Adorable osa rosada, ternura infinita en cada punto tejido.",
+        "Descuento": true
     },
     {
         "id": "8",
         "Nombre": "Astronauta",
         "img": "./Archivos/Catalogo 8.png",
         "Precio": 100000,
-        "Descripcion": "Astronauta valiente, viajero tejido a mano con esmero y cariño."
+        "Descripcion": "Astronauta valiente, viajero tejido a mano con esmero y cariño.",
+        "Descuento": false
     },
     {
         "id": "9",
         "Nombre": "Pirata",
         "img": "./Archivos/Catalogo 9.png",
         "Precio": 70000,
-        "Descripcion": "Aventurero marino, pirata tejido con amor y dedicación."
+        "Descripcion": "Aventurero marino, pirata tejido con amor y dedicación.",
+        "Descuento": true
     },
     {
         "id": "10",
         "Nombre": "Odontóloga",
         "img": "./Archivos/Catalogo 10.png",
         "Precio": 140000,
-        "Descripcion": "Pequeña odontóloga, ternura dental tejida en cada puntada de lana."
+        "Descripcion": "Pequeña odontóloga, ternura dental tejida en cada puntada de lana.",
+        "Descuento": false
     },
     {
         "id": "11",
         "Nombre": "Spiderman",
         "img": "./Archivos/Catalogo 11.png",
         "Precio": 50000,
-        "Descripcion": "Héroe enmascarado, Spiderman tejido a mano con esmero."
+        "Descripcion": "Héroe enmascarado, Spiderman tejido a mano con esmero.",
+        "Descuento": true
     },
     {
         "id": "12",
         "Nombre": "Dino",
         "img": "./Archivos/Catalogo 12.png",
         "Precio": 80000,
-        "Descripcion": "Dinosaurio mágico, encanto prehistórico tejido con amor y cuidado."
+        "Descripcion": "Dinosaurio mágico, encanto prehistórico tejido con amor y cuidado.",
+        "Descuento": false
     },
     {
         "id": "13",
         "Nombre": "León",
         "img": "./Archivos/Catalogo 13.png",
         "Precio": 30000,
-        "Descripcion": "León tejido, majestad y ternura en cada detalle."
+        "Descripcion": "León tejido, majestad y ternura en cada detalle.",
+        "Descuento": true
     },
     {
         "id": "14",
         "Nombre": "Cerdito",
         "img": "./Archivos/Catalogo 14.png",
         "Precio": 30000,
-        "Descripcion": "Pequeño cerdito, ternura tejida en cada puntada de lana."
+        "Descripcion": "Pequeño cerdito, ternura tejida en cada puntada de lana.",
+        "Descuento": false
     },
     {
         "id": "15",
         "Nombre": "Bailarina",
         "img": "./Archivos/Catalogo 15.png",
         "Precio": 150000,
-        "Descripcion": "Bailarina tejida, gracia y ternura en cada movimiento imaginado."
+        "Descripcion": "Bailarina tejida, gracia y ternura en cada movimiento imaginado.",
+        "Descuento": true
     },
     {
         "id": "16",
         "Nombre": "Elefante",
         "img": "./Archivos/Catalogo 16.png",
         "Precio": 80000,
-        "Descripcion": "Dumbo adorable, elefante volador tejido con amor y detalle."
+        "Descripcion": "Dumbo adorable, elefante volador tejido con amor y detalle.",
+        "Descuento": false
     },
     {
         "id": "17",
         "Nombre": "Gato",
         "img": "./Archivos/Catalogo 17.png",
         "Precio": 50000,
-        "Descripcion": "Pequeño gato, ronroneo tejido en cada puntada de lana."
+        "Descripcion": "Pequeño gato, ronroneo tejido en cada puntada de lana.",
+        "Descuento": true
     },
     {
         "id": "18",
         "Nombre": "Los Perritos",
         "img": "./Archivos/Catalogo 18.png",
         "Precio": 80000,
-        "Descripcion": "Pequeño salchicha, ternura en cada puntada de lana."
+        "Descripcion": "Pequeño salchicha, ternura en cada puntada de lana.",
+        "Descuento": false
     },
     {
         "id": "19",
         "Nombre": "Tulipanes",
         "img": "./Archivos/Catalogo 19.png",
         "Precio": 85000,
-        "Descripcion": "Pequeñas flores, belleza natural en cada puntada de lana."
+        "Descripcion": "Pequeñas flores, belleza natural en cada puntada de lana.",
+        "Descuento": true
     },
     {
         "id": "20",
         "Nombre": "Flores",
         "img": "./Archivos/Catalogo 20.png",
         "Precio": 110000,
-        "Descripcion": "Flores primaverales, alegría tejida con amor y detalle."
+        "Descripcion": "Flores primaverales, alegría tejida con amor y detalle.",
+        "Descuento": false
     },
     {
         "id": "21",
         "Nombre": "Enfermera",
         "img": "./Archivos/Catalogo 21.png",
         "Precio": 30000,
-        "Descripcion": "Profesional de la salud, vocación tejida a mano con esmero."
+        "Descripcion": "Profesional de la salud, vocación tejida a mano con esmero.",
+        "Descuento": true
     },
     {
         "id": "22",
         "Nombre": "Ratón",
         "img": "./Archivos/Catalogo 22.png",
         "Precio": 50000,
-        "Descripcion": "Pequeño Ratón Pérez, magia tejida en cada puntada de lana."
+        "Descripcion": "Pequeño Ratón Pérez, magia tejida en cada puntada de lana.",
+        "Descuento": false
     },
     {
         "id": "23",
         "Nombre": "Sapito",
         "img": "./Archivos/Catalogo 23.png",
         "Precio": 40000,
-        "Descripcion": "Amigo de charca, sapito tejido a mano con esmero."
+        "Descripcion": "Amigo de charca, sapito tejido a mano con esmero.",
+        "Descuento": true
     },
     {
         "id": "24",
         "Nombre": "Garfield",
         "img": "./Archivos/Catalogo 24.png",
         "Precio": 50000,
-        "Descripcion": "Amigo de las lasañas, Garfield tejido con amor y dedicación."
+        "Descripcion": "Amigo de las lasañas, Garfield tejido con amor y dedicación.",
+        "Descuento": false
     },
     {
         "id": "25",
         "Nombre": "Conejo Kitty",
         "img": "./Archivos/Catalogo 25.png",
         "Precio": 40000,
-        "Descripcion": "Conejito amigo de Hello Kitty, dulzura tejida con cariño."
+        "Descripcion": "Conejito amigo de Hello Kitty, dulzura tejida con cariño.",
+        "Descuento": true
     },
     {
         "id": "26",
         "Nombre": "Conejita",
         "img": "./Archivos/Catalogo 26.png",
         "Precio": 60000,
-        "Descripcion": "Conejito tejido, encanto y dulzura en cada hilo."
+        "Descripcion": "Conejito tejido, encanto y dulzura en cada hilo.",
+        "Descuento": false
     },
     {
         "id": "27",
         "Nombre": "Tulipanes",
         "img": "./Archivos/Catalogo 27.png",
         "Precio": 60000,
-        "Descripcion": "Tulipanes tejidos, encanto y frescura en cada pétalo imaginado."
+        "Descripcion": "Tulipanes tejidos, encanto y frescura en cada pétalo imaginado.",
+        "Descuento": true
     },
     {
         "id": "28",
         "Nombre": "Botero",
         "img": "./Archivos/Catalogo 28.png",
         "Precio": 70000,
-        "Descripcion": "Practicante de yoga, paz interior en cada puntada de lana."
+        "Descripcion": "Practicante de yoga, paz interior en cada puntada de lana.",
+        "Descuento": false
     },
     {
         "id": "29",
         "Nombre": "Ansiedad",
         "img": "./Archivos/Catalogo 29.png",
         "Precio": 70000,
-        "Descripcion": "Muñeco de ansiedad, emociones tejidas con sensibilidad y cuidado."
+        "Descripcion": "Muñeco de ansiedad, emociones tejidas con sensibilidad y cuidado.",
+        "Descuento": true
     },
     {
         "id": "30",
-        "Nombre": "Pollito",
+        "Nombre": "Felipe",
         "img": "./Archivos/Catalogo 30.png",
-        "Precio": 40000,
-        "Descripcion": "Pollito adorable, amarillo y travieso, tejido con cariño."
+        "Precio": 60000,
+        "Descripcion": "Alegre perrito, felino tejido con esmero y alegría.",
+        "Descuento": false
     }
 ]

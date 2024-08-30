@@ -22,7 +22,9 @@ const ContenedorPadre = document.querySelector("#ContenedorPadre");
     Productos = Productos.sort((a,b) => b.Precio - a.Precio)
     } else if (event == 1){
     Productos = Productos.sort((a,b) => a.Precio - b.Precio)
-    }
+
+    
+     }
   
   Productos.forEach((element) => {
     const div = document.createElement("div");
@@ -76,9 +78,10 @@ if (!memoria){
     
   }localStorage.setItem("Amigurumi",JSON.stringify(Nuevamemoria));
   actualizarNumeroCarrito();
+}
+}
 
-}
-}
+
 // Toma un producto le agrega cantidad 1 y lo devuelve
 
 function getNuevoProductoParaMemoria(producto){

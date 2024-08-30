@@ -19,6 +19,11 @@ body{
    
 
 }
+ ul{
+    list-style: none;
+    list-style-type: none;
+    list-style: none;
+}
 
 strong{
     font-weight: 300;

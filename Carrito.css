@@ -31,10 +31,10 @@ strong{
 
 .container_all{
     display: flex;
-    align-items:center;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 0px;
+    /* height: 90vh; */
 
 }
 .container_carrito {
@@ -47,9 +47,11 @@ strong{
     margin: 0;
     border-radius: 10px;
     overflow-y: scroll;
-    height: 53vh;
+    height: 80vh;
     padding-right: 15px; /* Asegura que el contenido no quede oculto tras la barra de scroll */
-    box-sizing: border-box; /* Incluye el padding dentro del tamaño del contenedor */
+    box-sizing: border-box;
+    margin-top: 4vw; 
+    margin-bottom: 4vw;/* Incluye el padding dentro del tamaño del contenedor */
 }
 
 .container_carrito .contenido {
@@ -129,6 +131,8 @@ strong{
     border-radius: 10px;
     border: 0.2vw, solid, #fae7c4;
     padding: 2vw;
+   min-height: 50vh;
+    align-self: center;
     
 }
 .Lista{
@@ -136,6 +140,36 @@ font-size: 3vw;
 text-align: center;
 }
 
+.listacarrito{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: center;
+    
+    gap: 2vw;
+  
+  
+}
+
+.fondo{
+    background-color:  #f7ccbb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0vw;
+    border-radius: 10px;
+    border: 0.2vw, solid, #fae7c4;
+    padding: 2vw;
+
+}
+#contnedor_lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
 .button {
     background-color: #ffb89d; /* Color de fondo */
     color: white; /* Color del texto */

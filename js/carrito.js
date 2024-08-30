@@ -52,11 +52,13 @@ function crearTarjetascarro() {
     `;
 
       Contenedortarjetas.append(div);
+      Nombres ()
       div
       .getElementsByTagName("button")[0]
       .addEventListener("click" , ()=> {
         agregarAlCarrito(element)
         crearTarjetascarro()
+        
         
         
         
@@ -71,6 +73,13 @@ function crearTarjetascarro() {
     });
     cantidadTotal ()
     PrecioTotal ()
+  }else if (!Carrito){
+     Contenedortarjetas.innerHTML = ` <h3 class="Carrito_Vacio">Carrito Vacio</h3>"`
+     crearTarjetascarro()
+     location.reload(true)
+
+
+
   }
 }
 
@@ -87,13 +96,17 @@ function restarAlCarrito(producto) {
     }
     localStorage.setItem("Amigurumi", JSON.stringify(memoria));
     crearTarjetascarro()
+    Nombres ()
     ; 
   }else{
     crearTarjetascarro();
+    Nombres ()
+    location.reload(true)
   }
 }
 
 crearTarjetascarro();
+
 
 
 
@@ -120,21 +133,7 @@ function cantidadTotal (){
 
 
 
-// function reset (){
-//   const memoria = JSON.parse(localStorage.getItem("Amigurumi")) || [];
-//   console.log(memoria)
-//   memoria.length = 0
-//   localStorage.setItem("Amigurumi", JSON.stringify(memoria));
-//   // for(let i = 0; i <memoria.length; i++){
-//   //   memoria.pop()
-//   // }
-//   cantidadTotal ()
-//   PrecioTotal()
-//   crearTarjetascarro();
-// }
 
-// var Borrador = document.querySelector("#reiniciar")
-// Borrador.addEventListener("click", reset)
 
 function reset() {
   const memoria = JSON.parse(localStorage.getItem("Amigurumi")) || [];
@@ -142,9 +141,8 @@ function reset() {
   cantidadTotal();
   PrecioTotal();
   crearTarjetascarro();
- 
   localStorage.setItem("Amigurumi", JSON.stringify(memoria));
-  location.reload
+  location.reload(true)
 }
 
 var Borrador = document.querySelector("#reiniciar");
@@ -158,6 +156,64 @@ Borrador
   })
 
 
+  function pagar (){
+    const memoria = JSON.parse(localStorage.getItem("Amigurumi")) || [];
+    if(memoria.length >= 1){
+    memoria.length = 0;
+    cantidadTotal();
+    PrecioTotal();
+    crearTarjetascarro()
+    localStorage.setItem("Amigurumi", JSON.stringify(memoria));
+    const Contenedortarjetas = document.querySelector("#container_carrito");
+    Contenedortarjetas.innerHTML = "";
+    Contenedortarjetas.innerHTML = `<h3 class="Carrito_Vacio">Gracias Por tu Compra</h3>";`
+    }else{
+      const Contenedortarjetas = document.querySelector("#container_carrito");
+      Contenedortarjetas.innerHTML = "";
+      Contenedortarjetas.innerHTML = `<h3 class="No hay Elementos</h3>";`
+      location.reload(true)
+      
+    }
+  }
+
+  var Pagar = document.querySelector("#pagar");
+  Pagar
+  .addEventListener("click" , ()=> {
+    pagar ()
+    cantidadTotal();
+    PrecioTotal();
+    crearTarjetascarro()
+    Nombres ()
+   
+    
+    })
+  
+
+
+function Nombres (){
+  const memoria = JSON.parse(localStorage.getItem("Amigurumi")) || [];
+  var listado = document.querySelector("#lista")
+  var padre = document.querySelector("#contnedor_lista")
+  padre.innerHTML = "";
+  if (memoria.length>0){
+    memoria.forEach((element)=>{
+    const minipadre=  document.createElement("div");
+    minipadre.innerHTML = "";
+     const listas=  document.createElement("p");
+     const precios=  document.createElement("p");
+     listas.classList.add("palabra_cantidad")
+     precios.classList.add("palabra_cantidad")
+     minipadre.classList.add("listacarrito")
+     listas.textContent =element.Nombre
+     precios.textContent = element.Precio*element.cantidad
+     minipadre.append(listas)
+     minipadre.append(precios)
+     padre.append(minipadre)
+
+    })
+  }
+
+}
 
 
 
