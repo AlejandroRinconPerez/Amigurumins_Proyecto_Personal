@@ -9,6 +9,7 @@
 }
 html{
     font-size: 10px;
+
 }
 body{
     margin: 0px;
@@ -21,6 +22,7 @@ body{
     #FFFFFF  );
     animation:Change-color 8s ease infinite;
     background-size: 400% 400%;
+    
 }
 
 strong{
@@ -35,27 +37,47 @@ strong{
     margin: 0px;
 
 }
-.container_carrito{
-    background-color:#e1ede9 ;
+.container_carrito {
+    background-color: #e1ede9;
     min-width: 45vw;
     display: flex;
     flex-direction: column;
     align-content: center;
-    justify-content: center;
-    margin: 0vw;
+    justify-content: flex-start;
+    margin: 0;
     border-radius: 10px;
-    
+    overflow-y: scroll;
+    height: 53vh;
+    padding-right: 15px; /* Asegura que el contenido no quede oculto tras la barra de scroll */
+    box-sizing: border-box; /* Incluye el padding dentro del tamaño del contenedor */
 }
+
+.container_carrito .contenido {
+    flex-grow: 1; /* Permite que el contenido crezca para llenar el espacio disponible */
+    overflow: hidden; /* Asegura que el contenido no se corte */
+    padding-right: 15px; /* Ajuste adicional para asegurarse de que no se pierda contenido */
+}
+.Carrito_Vacio{
+    font-size: 10rem;
+    text-align: center;
+}
+
+.sumas{
+    width: 5vw;
+}
+
+
 .element_1{
     display: flex;
     flex-direction: row;
     align-items:center;
-    justify-content: left;
+    justify-content: flex-start;
+    align-content: center;
     flex-wrap: wrap;
-    margin: 2vw;
+    margin: 1vw;
     background-color:  #f0dacd;
     box-sizing: border-box;
-    width: 90%;
+    width: 80%;
     border-radius: 10px;
     border: 0.2vw, solid, #fae7c4;
 }
@@ -75,6 +97,7 @@ strong{
 }
 .palabra_cantidad{
     font-size: 1.5vw;
+    text-align: center;
 }
 .cart-input{
     width: 3vw;

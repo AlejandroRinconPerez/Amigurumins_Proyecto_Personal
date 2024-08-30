@@ -11,7 +11,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
-<script src="./js/Catalogo.js" ></script>
 </body>
     <title>Catalogo</title>
 </head>
@@ -21,222 +20,28 @@
 
 
     <section class ="land_cat">
-        <h2 class="titulo_cat">
+        <header class="Contenerod_Titulo">
+        <h2 class="titulo_cat" id="titulocat">
             Catalogo
         </h2>
+       <a href="./Carrito.html"> <img src="https://img.icons8.com/?size=100&id=64243&format=png&color=000000" alt=""> <p id="Numero">0</p></a>
+
+       <img src="https://img.icons8.com/?size=100&id=63999&format=png&color=000000" alt="" id="mayor">
+       <img src="https://img.icons8.com/?size=100&id=113863&format=png&color=000000" alt=""id="menor">
+
+       
+    </header>
         <article class="fotos_cat" id="ContenedorPadre">
-            <div class="container_foto" class="catalogo1">
+            <!-- <h3 class="nombre_amigui">Carro Vacio</h3> -->
+            <!-- <div class="container_foto" class="catalogo1">
                 <img src="./Archivos/Catalogo 1.png" class="img_cat" alt="...">
                 <h3 class="nombre_amigui">Nina y Conejo</h3>
                 <p class="descrip">Niña y conejito, pura ternura tejida en lana y amor.</p>
                 <p class="precio">150.000</p>
                 <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo2">
-                <img src="./Archivos/Catalogo 2.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Tristeza</h3>
-                <p class="descrip">Delicada muñeca triste, melancolía tejida con amor y detalle.</p>
-                <p class="precio">80.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo3">
-                <img src="./Archivos/Catalogo 3.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Envidia</h3>
-
-                <p class="descrip">Envidia tejida, muñeca verde inspirada en "Inside Out".</p>
-                <p class="precio">80.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo4">
-                <img src="./Archivos/Catalogo 4.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Tanjiro</h3>
-                <p class="descrip">Pequeño Tanjiro tejido, héroe adorable de "Demon Slayer"</p>
-                <p class="precio">70.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo5">
-                <img src="./Archivos/Catalogo 5.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Hello Kitty</h3>
-                <p class="descrip">Hello Kitty morada, dulzura y encanto en cada detalle tejido.e</p>
-                <p class="precio">50.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo6">
-                <img src="./Archivos/Catalogo 6.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Hantaro</h3>
-                <p class="descrip">Hámster adorable, comiendo y tejido a mano con amor.</p>
-                <p class="precio">40.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo7">
-                <img src="./Archivos/Catalogo 7.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui">Osa</h3>
-                <p class="descrip">Adorable osa rosada, ternura infinita en cada punto tejido.</p>
-                <p class="precio">100.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo8">
-                <img src="./Archivos/Catalogo 8.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Astronauta</h3>
-                <p class="descrip">Astronauta valiente, viajero tejido a mano con esmero y cariño.</p>
-                <p class="precio">100.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo9">
-                <img src="./Archivos/Catalogo 9.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Pirata</h3>
-                <p class="descrip">Aventurero marino, pirata tejido con amor y dedicación.</p>
-                <p class="precio">70.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo10">
-                <img src="./Archivos/Catalogo 10.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Odontologa</h3>
-                <p class="descrip">Pequeña odontóloga, ternura dental tejida en cada puntada de lana.</p>
-                <p class="precio">140.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo11">
-                <img src="./Archivos/Catalogo 11.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Spidrman</h3>
-                <p class="descrip">Héroe enmascarado, Spiderman tejido a mano con esmero</p>
-                <p class="precio">50.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo12">
-                <img src="./Archivos/Catalogo 12.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Dino</h3>
-                <p class="descrip">Dinosaurio mágico, encanto prehistórico tejido con amor y cuidado.</p>
-                <p class="precio">80.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo13">
-                <img src="./Archivos/Catalogo 13.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> León</h3>
-                <p class="descrip">León tejido, majestad y ternura en cada detalle.e</p>
-                <p class="precio">30.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo14">
-                <img src="./Archivos/Catalogo 14.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Cerdito</h3>
-                <p class="descrip">Pequeño cerdito, ternura tejida en cada puntada de lana.</p>
-                <p class="precio">30.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo15">
-                <img src="./Archivos/Catalogo 15.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Bailarina</h3>
-                <p class="descrip">Bailarina tejida, gracia y ternura en cada movimiento imaginado.</p>
-                <p class="precio">150.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo16">
-                <img src="./Archivos/Catalogo 16.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Elefante</h3>
-                <p class="descrip">Dumbo adorable, elefante volador tejido con amor y detalle.</p>
-                <p class="precio">80.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo17">
-                <img src="./Archivos/Catalogo 17.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Gato</h3>
-                <p class="descrip">Pequeño gato, ronroneo tejido en cada puntada de lana.</p>
-                <p class="precio">50.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo18">
-                <img src="./Archivos/Catalogo 18.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Los Perritos</h3>
-                <p class="descrip">Pequeño salchicha, ternura en cada puntada de lana.</p>
-                <p class="precio">80.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo19">
-                <img src="./Archivos/Catalogo 19.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Tulipanes</h3>
-                <p class="descrip">Pequeñas flores, belleza natural en cada puntada de lana.</p>
-                <p class="precio">85.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo20">
-                <img src="./Archivos/Catalogo 20.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Flores</h3>
-                <p class="descrip">Flores primaverales, alegría tejida con amor y detalle.</p>
-                <p class="precio">110.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo21">
-                <img src="./Archivos/Catalogo 21.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Enfermera</h3>
-                <p class="descrip">Profesional de la salud, vocación tejida a mano con esmero.</p>
-                <p class="precio">30.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo22">
-                <img src="./Archivos/Catalogo 22.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui">Raton</h3>
-                <p class="descrip">Pequeño Ratón Pérez, magia tejida en cada puntada de lana.</p>
-                <p class="precio">50.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo23">
-                <img src="./Archivos/Catalogo 23.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Sapito</h3>
-                <p class="descrip">Amigo de charca, sapito tejido a mano con esmero.</p>
-                <p class="precio">40.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo24">
-                <img src="./Archivos/Catalogo 24.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Garfield</h3>
-                <p class="descrip">Amigo de las lasañas, Garfield tejido con amor y dedicación.</p>
-                <p class="precio">50.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo25">
-                <img src="./Archivos/Catalogo 25.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Conejo Kitty</h3>
-                <p class="descrip">Conejito amigo de Hello Kitty, dulzura tejida con cariño.</p>
-                <p class="precio">40.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo26">
-                <img src="./Archivos/Catalogo 26.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Conejita</h3>
-                <p class="descrip">Conejito tejido, encanto y dulzura en cada hilo.</p>
-                <p class="precio">60.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo27">
-                <img src="./Archivos/Catalogo 27.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Tulipanes</h3>
-                <p class="descrip">Tulipanes tejidos, encanto y frescura en cada pétalo imaginado.</p>
-                <p class="precio">60.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo28">
-                <img src="./Archivos/Catalogo 28.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui">Botero</h3>
-                <p class="descrip">Practicante de yoga, paz interior en cada puntada de lana.</p>
-                <p class="precio">70.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo29">
-                <img src="./Archivos/Catalogo 29.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui"> Ansiedad</h3>
-                <p class="descrip">Muñeco de ansiedad, emociones tejidas con sensibilidad y cuidado.</p>
-                <p class="precio">70.000</p>
-                <button class="button">Comprar</button>
-            </div>
-            <div class="container_foto" class="catalogo30">
-                <img src="./Archivos/Catalogo 30.png" class="img_cat" alt="...">
-                <h3 class="nombre_amigui">Pollito</h3>\
-                <p class="descrip">Pollito adorable, amarillo y travieso, tejido con cariño.</p>
-                <p class="precio">40.000</p>
-                <button class="button">Comprar</button>
-            </div>
-
+            </div> -->
+            
+           
         </article>
         <article class="botones">
             <div >
@@ -248,8 +53,6 @@
             <div >
                 <a  class="volver boton" href="./Carrito.html">Comprar</a>
             </div>
-
-
         </article>
 
 

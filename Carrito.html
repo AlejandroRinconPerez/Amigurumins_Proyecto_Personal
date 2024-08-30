@@ -51,74 +51,17 @@
         </ul>
     </nav>
 <section class="container_all">
-    <section class="container_carrito">
-      <div class="element_1">
-        <img src="./Archivos/Catalogo 1.png" class="img_cat" alt="...">
-        <div class="informacion">
-            <h3 class="Nombre">Nina y Conejo</h3>
-            <div class="cantidad">
-                <p class="palabra_cantidad">Cantidad</p>
-                <input type="number" class="cart-input" value="3" min="1">
-            </div>
-            <div class="sub_total">
-                <p class="Sub_text_total">
-                    Sub Total =
-                </p>
-                <ul>
-                    <li class="sub_total_int">50000 </li>
-                </ul>
-            </div>
-        </div>
-
-      </div>
-      <div class="element_1">
-        <img src="./Archivos/Catalogo 12.png" class="img_cat" alt="...">
-        <div class="informacion">
-            <h3 class="Nombre">Dinosaurio</h3>
-            <div class="cantidad">
-                <p class="palabra_cantidad">Cantidad</p>
-                <input type="number" class="cart-input" value="3" min="1">
-            </div>
-            <div class="sub_total">
-                <p class="Sub_text_total">Sub Total =</p>
-                <ul>
-                    <li class="sub_total_int">50000 </li>
-                </ul>
-            </div>
-        </div>
-      </div>
-    </section>
+    <section class="container_carrito" id="container_carrito">
+        <h3 class="Carrito_Vacio">Carrito Vacio</h3>
+      </section>
 
     <section class="datos">
         <h2 class="Lista">Lista de Articulos</h2>
-        <ul class="lista_compras">
-            <li class="lista_compras">Nina Conejo</li>
-            <li class="lista_compras">Dinosaurio</li>
-        </ul>
-        <div class="sub_total_tabla2">
-            <h2 class="Sub_text_totaltabla2">
-                Sub Total
-            </h2>
-            <div class="sub_total_lista_2">
-                <p class="Nombre_lista">Nina y Conejo =</p>
-                <ul>
-                    <li class="sub_total_int">50000 </li>
-                </ul>
-            </div>
-            <div class="sub_total_lista_2">
-                <p class="Nombre_lista">Dinosaurio =</p>
-                <ul>
-                    <li class="sub_total_int">50000 </li>
-                </ul>
-            </div>
-            <h2 class="Sub_text_totaltabla2">
-                Total
-            </h2>
-            <ul>
-                <li class="sub_total_int">100000 </li>
-            </ul>
-        </div>
+        <p class="palabra_cantidad">Total unidades: <span class="palabra_cantidad" id="cantidad">0</span></p>
+        <p class="palabra_cantidad">Total precio: $<span class="palabra_cantidad" id="precio">0</span></p>
         <button class="button">Pagar</button>
+        <button class="button" id="reiniciar">Reiniciar</button>
+        
     </section>
 </section>
 <footer class="footer">
@@ -130,7 +73,6 @@
         <h3 class="titulo_footer"> Sobre Nosotros</h3>
         <p class="sobre" >Nuestra empresa, liderada por una madre cabeza de hogar,  dedica a crear amigurumis hechos a mano con 100% calidad y pasión. Cada pieza refleja amor al detalle y dedicación, ofreciendo productos únicos y llenos de encanto y magia..</p>
     </div>
-  
     <div  class="box2">
         <h3 class="siguenos">CONTACTANOS</h3>
         <div class="red_social">
@@ -141,7 +83,8 @@
     </div> 
         
 </footer>
-<script src="./js/main.js"></script>
-<script src="./js/Catalogo.js"></script>
+<script src="./js/carrito.js"></script>
+<!-- <script src="./js/main.js"></script> -->
+
   </body>
 </html>
