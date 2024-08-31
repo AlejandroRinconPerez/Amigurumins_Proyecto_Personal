@@ -237,12 +237,17 @@ h6{
 
 @media(max-width:1000px){
 
-    
+    .Contenerod_Titulo{
+        display: flex;
+        justify-content: center;
+    }
     .titulo_cat{
     
         font-size: 8vw;
+        display: none;
         
     }
+   
     .precio{
         font-size: 5vw;
     }
@@ -282,7 +287,10 @@ h6{
     }
 }
 
-
+#Numero{
+    width: 23px;
+    height: 23px;
+}
 
 
 

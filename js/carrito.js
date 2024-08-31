@@ -43,18 +43,18 @@ function crearTarjetascarro() {
         <img src="${element.img}" class="img_cat" alt="...">
         <div class="informacion">
             <h3 class="Nombre">${element.Nombre}</h3>
-            <p class="precio">$${element.Precio.toLocaleString()}</p>
+            <p class="palabra_cantidad">$${element.Precio*element.cantidad}</p>
             <div>
-        <button class = "sumas">+</button>
-        <span class="cantidad">${element.cantidad}</span>
         <button class = "sumas">-</button>
+        <span class="palabra_cantidad">${element.cantidad}</span>
+        <button class = "sumas">+</button>
         </div>
     `;
 
       Contenedortarjetas.append(div);
       Nombres ()
       div
-      .getElementsByTagName("button")[0]
+      .getElementsByTagName("button")[1]
       .addEventListener("click" , ()=> {
         agregarAlCarrito(element)
         crearTarjetascarro()
@@ -64,7 +64,7 @@ function crearTarjetascarro() {
         
       })
       div
-      .getElementsByTagName("button")[1]
+      .getElementsByTagName("button")[0]
       .addEventListener("click" , ()=> {
         restarAlCarrito(element)
         crearTarjetascarro()

@@ -44,7 +44,7 @@ strong{
     flex-direction: column;
     align-content: center;
     justify-content: flex-start;
-    margin: 0;
+    margin: auto;
     border-radius: 10px;
     overflow-y: scroll;
     height: 80vh;
@@ -92,10 +92,8 @@ strong{
 }
 .Nombre{
     font-size: 3vw;
-    align-self: center;
-    align-content: center;
-    text-align: center;
     
+   
 }
 .palabra_cantidad{
     font-size: 1.5vw;
@@ -127,7 +125,7 @@ strong{
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    margin: 0vw;
+    margin: 2vw;
     border-radius: 10px;
     border: 0.2vw, solid, #fae7c4;
     padding: 2vw;
@@ -151,6 +149,21 @@ text-align: center;
   
 }
 
+.sumas {
+    font-size: 20px; /* Ajusta el tamaño de la letra */
+    border-radius: 50px; /* Hace los botones redondos */
+    padding: 5px 5px; /* Ajusta el espacio interno del botón */
+    border: none; /* Opcional: quita el borde del botón */
+    background-color: #fadba2; /* Opcional: cambia el color de fondo del botón */
+   ; /* Opcional: cambia el color del texto */
+    cursor: pointer; /* Cambia el cursor cuando pasa por encima del botón */
+    margin: 1vw;
+  }
+
+  .sumas:hover {
+    background-color:#f7cc7e; /* Opcional: cambia el color del botón al pasar el cursor sobre él */
+  }
+
 .fondo{
     background-color:  #f7ccbb;
     display: flex;
@@ -162,6 +175,13 @@ text-align: center;
     border: 0.2vw, solid, #fae7c4;
     padding: 2vw;
 
+}
+
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #contnedor_lista{
     display: flex;
@@ -226,13 +246,22 @@ text-align: center;
 @media(max-width:950px){
 .container_all{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .container_carrito{
     
     min-width: 80vw;
+    height: auto;
 }
-
+.datos{
+    justify-content: space-around;
+}
+.element_1{
+    width: 80vw;
+}
 .img_cat{
     width: 40vw;
 }
@@ -241,7 +270,7 @@ text-align: center;
     align-self: first baseline;
 }
 .palabra_cantidad{
-    font-size: 4vw;
+    font-size: 6vw;
 }
 .cart-input{
     font-size: 3vw;
@@ -258,7 +287,9 @@ text-align: center;
    
     }
 .button {
-    width: 80%;
+    width: 60%;
+    font-size: 6vw;
+    margin: 2vw;
 }
 .Lista{
     font-size: 7vw;

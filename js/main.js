@@ -21,11 +21,13 @@ const ContenedorPadre = document.querySelector("#ContenedorPadre");
   if (event ==2 ){
     Productos = Productos.sort((a,b) => b.Precio - a.Precio)
     } else if (event == 1){
-    Productos = Productos.sort((a,b) => a.Precio - b.Precio)
-
-    
+  var  Descuentos = Productos.filter((element)=>{
+    return element.Descuento == true
+  } )
      }
-  
+  if(Descuentos && Descuentos.length > 0){
+    Productos = Descuentos
+  }
   Productos.forEach((element) => {
     const div = document.createElement("div");
     div.classList.add("container_foto");
@@ -42,7 +44,9 @@ const ContenedorPadre = document.querySelector("#ContenedorPadre");
     
   })};
 
-  Crea_Catalogo();
+  (async () => {
+    await Crea_Catalogo();
+  })();
   
  
 
