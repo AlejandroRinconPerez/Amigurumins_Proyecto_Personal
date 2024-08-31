@@ -9,6 +9,8 @@
 }
 html{
     font-size: 10px;
+    scrollbar-color:   #ffb89d #fadba2;
+    -webkit-overflow-scrolling: touch;
 
 }
 body{
@@ -51,8 +53,14 @@ strong{
     padding-right: 15px; /* Asegura que el contenido no quede oculto tras la barra de scroll */
     box-sizing: border-box;
     margin-top: 4vw; 
-    margin-bottom: 4vw;/* Incluye el padding dentro del tamaño del contenedor */
-}
+    margin-bottom: 4vw;
+    overflow: scroll ;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-color:   #ffb89d #fadba2;
+    -webkit-overflow-scrolling: touch;
+}Incluye el padding dentro del tamaño del contenedor */
+
 
 .container_carrito .contenido {
     flex-grow: 1; /* Permite que el contenido crezca para llenar el espacio disponible */

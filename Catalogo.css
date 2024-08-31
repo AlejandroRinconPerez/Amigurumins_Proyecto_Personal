@@ -11,6 +11,8 @@ html{
     font-size: 10px;
     margin: 0px;
     padding: 0px;
+    scrollbar-color: #b4d2f1 #89D3D2;
+    -webkit-overflow-scrolling: touch;
 }
 body{
     margin: 0px;

@@ -43,7 +43,7 @@ function crearTarjetascarro() {
         <img src="${element.img}" class="img_cat" alt="...">
         <div class="informacion">
             <h3 class="Nombre">${element.Nombre}</h3>
-            <p class="palabra_cantidad">$${element.Precio*element.cantidad}</p>
+            <p class="palabra_cantidad">$${(element.Precio*element.cantidad).toLocaleString()}</p>
             <div>
         <button class = "sumas">-</button>
         <span class="palabra_cantidad">${element.cantidad}</span>
@@ -205,7 +205,7 @@ function Nombres (){
      precios.classList.add("palabra_cantidad")
      minipadre.classList.add("listacarrito")
      listas.textContent =element.Nombre
-     precios.textContent = element.Precio*element.cantidad
+     precios.textContent =  "$" +(element.Precio*element.cantidad).toLocaleString() + "...." +"X" + element.cantidad
      minipadre.append(listas)
      minipadre.append(precios)
      padre.append(minipadre)

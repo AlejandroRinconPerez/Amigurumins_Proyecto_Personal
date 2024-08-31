@@ -27,6 +27,8 @@
 }
 html{
     font-size: 10px;
+    scrollbar-color:   #ffb89d #fadba2;
+    -webkit-overflow-scrolling: touch;
    
 }
 body{
